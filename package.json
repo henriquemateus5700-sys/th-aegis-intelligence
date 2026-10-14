@@ -1,0 +1,9 @@
+{
+  "name": "th-aegis-ai-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@huggingface/inference": "^4.7.1"
+  }
+}
