@@ -1,0 +1,20 @@
+TH // AEGIS INTELLIGENCE — VERSÃO VISUAL PREMIUM
+
+Inclui:
+- Interface futurista escura com núcleo digital animado, ciano e detalhes dourados.
+- Saudação “Olá, TH. O que você procura hoje?”
+- Painel de pesquisa e resultados dentro do site.
+- Função Netlify para consultar resultados públicos e fazer checagem HTTP básica.
+- Botão para abrir o convite original do WhatsApp.
+
+Para ativar:
+1. Publique a pasta do projeto no Netlify.
+2. Em Site configuration > Environment variables, crie BRAVE_SEARCH_API_KEY com uma chave válida do Brave Search API.
+3. Faça deploy novamente.
+4. Teste uma pesquisa.
+
+Atenção:
+- A chave fica no servidor, nunca no HTML.
+- Este projeto não inclui um modelo de IA real; o assistente é a interface visual e a consulta de pesquisa. Para uma IA conversacional de verdade, é necessária uma API de modelo adicional e sua chave, configurada no servidor.
+- “Link acessível” significa apenas que o endereço respondeu à checagem HTTP. Não garante que o grupo esteja ativo ou aceite participantes.
+- A busca só encontra convites que o provedor indexou publicamente.
